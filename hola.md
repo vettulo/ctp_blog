@@ -3,7 +3,7 @@ Cuando se trata de programación en Python, la legibilidad y la eficiencia son c
 ## ¿Qué es una List Comprehension?
 Una *list comprehension* es una construcción compacta y elegante en Python que te permite crear listas mediante una sintaxis concisa. En lugar de usar bucles `for` tradicionales para iterar sobre una secuencia y construir una lista, las list comprehensions te permiten lograrlo en una sola línea de código.
 La sintaxis básica de una list comprehension es la siguiente:
-```
+```python
 nueva_lista = [expresión for elemento in secuencia]
 
 ```
@@ -21,14 +21,14 @@ Al reducir la cantidad de líneas de código, las list comprehensions también d
 ## Ejemplos de List Comprehensions
 ### 1. Crear una lista de cuadrados
 Supongamos que queremos crear una lista que contenga los cuadrados de los primeros 5 números naturales. En lugar de usar un bucle `for`, podemos lograrlo con una list comprehension:
-```
+```python
 cuadrados = [x**2 for x in range(1, 6)]
 print(cuadrados)  # Salida: [1, 4, 9, 16, 25]
 
 ```
 ### 2. Filtrar elementos pares
 Imagina que tenemos una lista de números y queremos crear una nueva lista que contenga solo los números pares. Una list comprehension puede hacerlo de manera elegante:
-```
+```python
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 pares = [x for x in numeros if x % 2 == 0]
 print(pares)  # Salida: [2, 4, 6, 8, 10]
