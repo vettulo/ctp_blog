@@ -7,11 +7,6 @@ La sintaxis básica de una list comprehension es la siguiente:
 nueva_lista = [expresión for elemento in secuencia]
 
 ```
-Donde:
-
-* `expresión` es una operación que se aplica a cada `elemento` en la `secuencia`.
-* `elemento` es el valor actual de la iteración.
-* `secuencia` es la colección de elementos sobre la cual se iterará.## Ventajas de las List Comprehensions
 ### 1. Concisión
 Una de las principales ventajas de las list comprehensions es su concisión. Puedes lograr en una línea lo que normalmente requeriría varias líneas de código con bucles tradicionales. Esto hace que tu código sea más legible y fácil de entender.
 ### 2. Eficiencia
