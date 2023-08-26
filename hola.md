@@ -3,7 +3,7 @@ Cuando se trata de programación en Python, la legibilidad y la eficiencia son c
 ## ¿Qué es una List Comprehension?
 Una *list comprehension* es una construcción compacta y elegante en Python que te permite crear listas mediante una sintaxis concisa. En lugar de usar bucles `for` tradicionales para iterar sobre una secuencia y construir una lista, las list comprehensions te permiten lograrlo en una sola línea de código.
 La sintaxis básica de una list comprehension es la siguiente:
-```python
+```
 nueva_lista = [expresión for elemento in secuencia]
 
 ```
