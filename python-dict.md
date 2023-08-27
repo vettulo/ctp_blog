@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/vettulo/ctp_blog/blob/main/blog01.jpg)
+![alt text](https://github.com/vettulo/ctp_blog/blob/main/python-dict.jpg)
 
 # Introducción a Diccionarios en Python
 Cuando se trata de programación en Python, la legibilidad y la eficiencia son clave. Python ofrece una característica poderosa llamada *list comprehensions* (comprensiones de listas) que te permite crear listas de una manera concisa y eficiente. En este artículo, exploraremos qué son las list comprehensions y cómo pueden simplificar tu código.
